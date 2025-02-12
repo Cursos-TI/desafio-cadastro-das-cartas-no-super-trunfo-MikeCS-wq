@@ -44,13 +44,13 @@ for (int i = 0; i < numCidades; i++) {
 
 //exibir os dados cadastrados pelo usuário
 printf("\nDados cadastrados:\n");
-for (int i = 0; i < numCidades; i++);
-    printf("Cidade %d - Código: %s\n", i + 1, cidades[i].codigo
+for (int i = 0; i < numCidades; i++) {
+    printf("Cidade %d - Código: %s\n", i + 1, cidades[i].codigo);
     printf("Populacao: %d\n", cidades[i].populacao);
     printf("Área: %.2f km\n", cidades[i].area);
     printf("PIB: %2f milhões\n", cidades[i].pib);
     printf("Pontos turísticos: %d\n", cidades[i].pontosTuristicos);
     printf("\n");
-
+}
  return 0;
 }
