@@ -18,7 +18,7 @@ int main() {
     Cidade cidades[numCidades]; //array de cidades = vamos armazenas multiplas cidades
 
 //cadastro das cartas
-for(int i = 0; i < numCidades; i++) {
+for (int i = 0; i < numCidades; i++) {
     //informando numero da cidade
     printf("Cadastro da cidade %d:\n", i + 1);
 
@@ -34,10 +34,10 @@ for(int i = 0; i < numCidades; i++) {
     scanf("%f", &cidades[i].area);
 
     printf("Digite o PIB (em milhões):");
-    scanf("%f", &cidades[i].pib)
+    scanf("%f", &cidades[i].pib);
 
     printf("Digite o número de pontos turísticos:");
-    scanf("%d", cidades[i].pontosTuristicos);
+    scanf("%d", &cidades[i].pontosTuristicos);
 
     printf("\n");       //linha em branco para separa os cadastros
 }
@@ -53,52 +53,4 @@ for (int i = 0; i < numCidades; i++);
     printf("\n");
 
  return 0;
-}
-
-   
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
-
-   
-
-
-//MENU DE OPÇÕES
-printf("SUPER TRUNFO PAíSES!");
-printf("--------------------");
-
-printf("ESCOLHA UMA OPÇÃO");
-printf("1 - INICIAR JOGO");
-printf("2 - REGRAS DO JOGO");
-printf("3 - SAIR DO JOGO");
-scanf("%d",&opcao);
-
-switch (opcao) {
-    
-    case 1:
-        printf("INICIANDO O JOGO...");
-
-
-
-}
-
-
-    
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
-
-    return 0;
 }
